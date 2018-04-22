@@ -13,7 +13,7 @@ namespace DotNetPOC
             customer obj = new customer();
 
             //Method calling  
-            Console.WriteLine("1. Method calling");
+            Console.WriteLine("1. object instantiation");
             obj.displayData();
 
             //fields calling  
@@ -36,6 +36,25 @@ namespace DotNetPOC
             //method populate  
             objMathLib.calculareSum(2, 5);  
             objMathLib.calculareSqrt(25); 
+
+            //constructor and destructor  
+            Console.WriteLine("\n4. constructor and destructor");
+            people objpeople1 = new people("Rajesh","Khan");
+            objpeople1.AppendData();
+
+            people objpeople2 = new people();
+            objpeople2.AppendData();
+
+            //function overloading
+            Console.WriteLine("\n5. function overloading");
+            funOverload objfunOverload = new funOverload();  
+  
+            objfunOverload.setName("Rajesh"); 
+            objfunOverload.showData();
+            objfunOverload.setName("Rajesh"," Khan "); 
+            objfunOverload.showData();
+            objfunOverload.setName("Rajesh"," Tarun"," Khan"); 
+            objfunOverload.showData();
         }
         
     }
