@@ -1,7 +1,7 @@
 ﻿using System;
 namespace DotNetPOC
 {
-    public class Customer
+    public class customer
     {
         // Member Variables    
         public int CustID;
@@ -9,7 +9,7 @@ namespace DotNetPOC
         public string Address;
 
         //constuctor for initializing fields    
-        public Customer()
+        public customer()
         {
             CustID = 1101;
             Name = "Tom";

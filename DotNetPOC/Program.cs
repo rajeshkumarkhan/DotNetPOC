@@ -9,8 +9,8 @@ namespace DotNetPOC
         {
             Console.WriteLine("Hello World!");
 
-            // object instantiation    
-            Customer obj = new Customer();
+            //object instantiation    
+            customer obj = new customer();
 
             //Method calling  
             Console.WriteLine("1. Method calling");
